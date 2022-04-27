@@ -15,7 +15,7 @@ COMMANDS:
    help, h  Shows a list of commands or help for one command
 
 GLOBAL OPTIONS:
-   --interval value, -n value  interval in milliseconds (default: "1000")
+   --interval value, -i value  interval in milliseconds (default: "1000")
    --repeat value, -r value    times to repeat (default: 0 - infinity) (default: "0")
    --help, -h                  show help (default: false)
    --version, -v               print the version (default: false)
@@ -24,7 +24,7 @@ GLOBAL OPTIONS:
 ## Example
 
 ```
-$ wtch -n 500 "df -h"
+$ wtch -i 500 "df -h"
 2022/04/27 21:28:14 'df -h' every 500 millisecond
 Filesystem       Size   Used  Avail Capacity iused     ifree %!i(MISSING)used  Mounted on
 /dev/disk1s1s1  113Gi   23Gi   30Gi    44%! (MISSING)314738560    0%!/(MISSING)

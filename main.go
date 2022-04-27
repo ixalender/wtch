@@ -21,7 +21,7 @@ func main() {
 		Flags: []cli.Flag{
 			&cli.StringFlag{
 				Name:    "interval",
-				Aliases: []string{"n"},
+				Aliases: []string{"i"},
 				Value:   "1000",
 				Usage:   "interval in milliseconds",
 			},
@@ -78,7 +78,7 @@ func execCommand(command string, interval, repeat int) error {
 		cmd := exec.Command(commandParts[0], args...)
 		outBuff, _ := cmd.CombinedOutput()
 
-		fmt.Fprintf(outWriter, fmt.Sprintf("%s", string(outBuff)))
+		fmt.Fprintf(outWriter, fmt.Sprintf(string(outBuff)))
 
 		repeatCount++
 		if repeatCount == repeat {
