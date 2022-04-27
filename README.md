@@ -1,15 +1,15 @@
-# watch
+# wtch
 
 Periodically executes specified system command.
 
 ## Why?!
-It's a simpler variant of watch(1) Linux util, but with needed milliseconds interval and numbered repeat feature.
+It's a simpler variant of wtch(1) Linux util, but with needed milliseconds interval and numbered repeat feature.
 
 
 ## Usage
 
 ```
-watch [global options] help | "system command with args"
+wtch [global options] help | "system command with args"
 
 COMMANDS:
    help, h  Shows a list of commands or help for one command
@@ -24,7 +24,7 @@ GLOBAL OPTIONS:
 ## Example
 
 ```
-$ watch -n 500 "df -h"
+$ wtch -n 500 "df -h"
 2022/04/27 21:28:14 'df -h' every 500 millisecond
 Filesystem       Size   Used  Avail Capacity iused     ifree %!i(MISSING)used  Mounted on
 /dev/disk1s1s1  113Gi   23Gi   30Gi    44%! (MISSING)314738560    0%!/(MISSING)

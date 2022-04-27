@@ -1,4 +1,4 @@
-module github.com/ixalender/watch
+module github.com/ixalender/wtch
 
 go 1.18
 

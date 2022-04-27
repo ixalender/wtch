@@ -14,10 +14,10 @@ import (
 
 func main() {
 	app := &cli.App{
-		Name:      "watch",
+		Name:      "wtch",
 		Usage:     "Repeats specified command line",
 		Version:   "1.0",
-		UsageText: `watch [global options] help | "system command with args"`,
+		UsageText: `wtch [global options] help | "system command with args"`,
 		Flags: []cli.Flag{
 			&cli.StringFlag{
 				Name:    "interval",
