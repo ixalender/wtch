@@ -3,7 +3,7 @@
 Periodically executes specified system command.
 
 ## Why?!
-It's a simpler variant of wtch(1) Linux util, but with needed milliseconds interval and numbered repeat feature.
+It's a simpler variant of watch(1) Linux util, but with needed milliseconds interval and numbered repeat feature.
 
 
 ## Usage
